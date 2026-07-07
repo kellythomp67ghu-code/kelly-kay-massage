@@ -656,3 +656,72 @@ form button {
     display: inline-block;
     margin-top: 20px;
 }
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background: #f8f5f0;
+    color: #2b2b2b;
+}
+
+.button {
+    transition: all 0.3s ease;
+    font-weight: bold;
+}
+
+.button:hover {
+    background: #c9a227;
+    color: white;
+    transform: translateY(-3px);
+}
+
+.service-box,
+.price-box,
+.review-box,
+.why-box,
+.gallery-container img {
+    transition: all 0.3s ease;
+}
+
+.service-box:hover,
+.price-box:hover,
+.review-box:hover,
+.why-box:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 15px 35px rgba(0,0,0,0.15);
+}
+
+.gallery-container img:hover {
+    transform: scale(1.05);
+}
+
+.hero h1,
+.hero h2 {
+    text-shadow: 2px 2px 10px rgba(0,0,0,0.5);
+}
+
+section {
+    scroll-margin-top: 90px;
+}
+
+.site-header {
+    backdrop-filter: blur(10px);
+}
+
+.social-button {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 12px 24px;
+    background: #1877f2;
+    color: white;
+    text-decoration: none;
+    border-radius: 30px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.social-button:hover {
+    background: #0d65d9;
+    transform: translateY(-3px);
+}
