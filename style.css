@@ -531,3 +531,37 @@ form button {
 .service-box p {
     line-height: 1.6;
 }
+.reviews {
+    padding: 70px 20px;
+    text-align: center;
+    background: white;
+}
+
+
+.reviews h2 {
+    font-size: 34px;
+    margin-bottom: 40px;
+}
+
+
+.review-box {
+    background: #fffaf5;
+    max-width: 450px;
+    margin: 20px auto;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.08);
+}
+
+
+.review-box p {
+    font-size: 17px;
+    line-height: 1.6;
+    font-style: italic;
+}
+
+
+.review-box h3 {
+    margin-top: 20px;
+    color: #8b5e3c;
+}
