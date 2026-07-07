@@ -248,3 +248,36 @@ form button {
     color: #8b5e3c;
     margin-top: 25px;
 }
+.pricing {
+    padding: 60px 20px;
+    text-align: center;
+    background: #fffaf5;
+}
+
+
+.pricing h2 {
+    font-size: 32px;
+    margin-bottom: 30px;
+}
+
+
+.price-box {
+    background: white;
+    max-width: 450px;
+    margin: 20px auto;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+
+.price-box h3 {
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+
+.price-box h4 {
+    margin-top: 20px;
+    color: #8b5e3c;
+}
