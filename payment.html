@@ -1,1 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bitcoin Deposit - Kelly Kay Massage</title>
+    <link rel="stylesheet" href="style.css">
+</head>
 
+<body>
+
+<header class="booking-header">
+    <h1>Complete Your Booking</h1>
+    <p>60% Bitcoin Deposit Required</p>
+</header>
+
+<section class="thank-you">
+
+    <h2>Booking Deposit</h2>
+
+    <p>
+        To secure your massage appointment, a <strong>60% deposit</strong>
+        is required before your booking can be confirmed.
+    </p>
+
+    <h3>Deposit Amounts</h3>
+
+    <p>1 Hour Massage – <strong>$72 BTC</strong></p>
+    <p>2 Hours Massage – <strong>$150 BTC</strong></p>
+    <p>3 Hours Massage – <strong>$240 BTC</strong></p>
+    <p>Boyfriend Package – <strong>$300 BTC</strong></p>
+
+    <br>
+
+    <h3>Bitcoin Wallet Address</h3>
+
+    <textarea readonly style="width:100%;height:90px;padding:15px;">
+bc1qgn0fzra247gm7mr5ct3zkg3490qumd2qe2lfgy
+    </textarea>
+
+    <br><br>
+
+    <label><strong>Bitcoin Transaction ID</strong></label>
+
+    <form action="https://formspree.io/f/xbdvbzyb" method="POST">
+
+        <input type="text"
+               name="Transaction ID"
+               placeholder="Paste your Bitcoin Transaction ID"
+               required>
+
+        <input type="text"
+               name="Full Name"
+               placeholder="Your Full Name"
+               required>
+
+        <input type="email"
+               name="Email"
+               placeholder="Your Email Address"
+               required>
+
+        <button class="button" type="submit">
+            Submit Payment Confirmation
+        </button>
+
+    </form>
+
+</section>
+
+<footer class="site-footer">
+
+    <h3>Kelly Kay Massage</h3>
+
+    <p>
+        Your appointment will be confirmed after your Bitcoin
+        payment has been successfully verified.
+    </p>
+
+</footer>
+
+</body>
+</html>
