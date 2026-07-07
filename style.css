@@ -124,6 +124,32 @@ form {
     gap: 15px;
 }
 
+.gallery {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+
+.gallery h2 {
+    margin-bottom: 30px;
+}
+
+
+.gallery-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    max-width: 1000px;
+    margin: auto;
+}
+
+
+.gallery-container img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 15px;
+}
 
 form input,
 form select,
