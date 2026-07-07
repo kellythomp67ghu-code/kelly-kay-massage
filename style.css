@@ -635,3 +635,24 @@ form button {
     line-height: 1.7;
     margin-bottom: 20px;
 }
+.site-footer {
+    background: #222;
+    color: white;
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.site-footer h3 {
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+.site-footer p {
+    margin: 10px 0;
+    line-height: 1.6;
+}
+
+.site-footer .button {
+    display: inline-block;
+    margin-top: 20px;
+}
