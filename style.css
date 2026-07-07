@@ -613,3 +613,25 @@ form button {
     width: 100%;
     margin-top: 15px;
 }
+.thank-you {
+    max-width: 700px;
+    margin: 60px auto;
+    padding: 50px 25px;
+    text-align: center;
+    background: #fffaf5;
+    border-radius: 20px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.08);
+}
+
+
+.thank-you h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+
+.thank-you p {
+    font-size: 18px;
+    line-height: 1.7;
+    margin-bottom: 20px;
+}
