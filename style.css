@@ -281,3 +281,30 @@ form button {
     margin-top: 20px;
     color: #8b5e3c;
 }
+.why-us {
+    padding: 60px 20px;
+    text-align: center;
+    background: white;
+}
+
+
+.why-us h2 {
+    font-size: 32px;
+    margin-bottom: 30px;
+}
+
+
+.why-box {
+    background: #fffaf5;
+    max-width: 450px;
+    margin: 20px auto;
+    padding: 25px;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+
+.why-box h3 {
+    margin-bottom: 15px;
+    color: #8b5e3c;
+}
