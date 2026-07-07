@@ -308,3 +308,21 @@ form button {
     margin-bottom: 15px;
     color: #8b5e3c;
 }
+.luxury {
+    padding: 60px 20px;
+    text-align: center;
+    background: #f2dfc6;
+}
+
+
+.luxury h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+
+.luxury p {
+    max-width: 750px;
+    margin: auto;
+    font-size: 18px;
+}
