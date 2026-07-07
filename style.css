@@ -426,3 +426,69 @@ form button {
     border: 2px solid white;
     color: white;
 }
+.site-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+    background: white;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    box-shadow: 0 3px 15px rgba(0,0,0,0.08);
+}
+
+
+.logo h1 {
+    margin: 0;
+    font-size: 28px;
+}
+
+
+.logo p {
+    margin: 5px 0 0;
+    font-size: 14px;
+}
+
+
+.site-header nav a {
+    margin-left: 20px;
+    text-decoration: none;
+    color: #5a3a22;
+    font-weight: 600;
+}
+
+
+.site-header .nav-button {
+    background: #8b5e3c;
+    color: white;
+    padding: 12px 20px;
+    border-radius: 25px;
+}
+
+
+.site-header nav a:hover {
+    opacity: 0.7;
+}
+
+
+@media (max-width: 700px) {
+
+    .site-header {
+        flex-direction: column;
+        padding: 20px;
+    }
+
+
+    .site-header nav {
+        margin-top: 15px;
+        text-align: center;
+    }
+
+
+    .site-header nav a {
+        display: inline-block;
+        margin: 8px;
+    }
+
+}
