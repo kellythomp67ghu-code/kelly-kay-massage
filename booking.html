@@ -1,61 +1,89 @@
-<form action="payment.html" method="GET">
+<section id="appointment">
 
-    <input type="text"
-           name="name"
-           placeholder="Your Full Name"
-           required>
+    <div class="booking-card">
 
-    <input type="tel"
-           name="phone"
-           placeholder="Your Phone Number"
-           required>
+        <h2>Book Your Massage Session</h2>
 
-    <select name="service" required>
+        <p>
+            Complete the form below to reserve your preferred massage session.
+            You'll be taken to the secure Bitcoin payment page to complete your booking.
+        </p>
 
-        <option value="">Select Massage Service</option>
+        <form action="payment.html" method="GET">
 
-        <option value="Swedish Massage - 1 Hour - $120">
-            Swedish Massage - 1 Hour ($120)
-        </option>
+            <label>Full Name</label>
+            <input
+                type="text"
+                name="name"
+                placeholder="Enter your full name"
+                required>
 
-        <option value="Deep Tissue Massage - 1 Hour - $120">
-            Deep Tissue Massage - 1 Hour ($120)
-        </option>
+            <label>Phone Number</label>
+            <input
+                type="tel"
+                name="phone"
+                placeholder="Enter your phone number"
+                required>
 
-        <option value="Relaxation Massage - 1 Hour - $120">
-            Relaxation Massage - 1 Hour ($120)
-        </option>
+            <label>Select Massage Package</label>
 
-        <option value="Swedish Massage - 2 Hours - $250">
-            Swedish Massage - 2 Hours ($250)
-        </option>
+            <select name="service" required>
 
-        <option value="Deep Tissue Massage - 2 Hours - $250">
-            Deep Tissue Massage - 2 Hours ($250)
-        </option>
+                <option value="">Choose a massage package</option>
 
-        <option value="Relaxation Massage - 2 Hours - $250">
-            Relaxation Massage - 2 Hours ($250)
-        </option>
+                <option value="Swedish Massage - 1 Hour - $120">
+                    Swedish Massage — 1 Hour ($120)
+                </option>
 
-        <option value="3 Hours Massage Session - $400">
-            3 Hours Massage Session ($400)
-        </option>
+                <option value="Deep Tissue Massage - 1 Hour - $120">
+                    Deep Tissue Massage — 1 Hour ($120)
+                </option>
 
-        <option value="Boyfriend Package - $500">
-            Boyfriend Package ($500)
-        </option>
+                <option value="Relaxation Massage - 1 Hour - $120">
+                    Relaxation Massage — 1 Hour ($120)
+                </option>
 
-    </select>
+                <option value="Swedish Massage - 2 Hours - $250">
+                    Swedish Massage — 2 Hours ($250)
+                </option>
 
-    <input type="date" name="date" required>
+                <option value="Deep Tissue Massage - 2 Hours - $250">
+                    Deep Tissue Massage — 2 Hours ($250)
+                </option>
 
-    <textarea
-        name="message"
-        placeholder="Any special request"></textarea>
+                <option value="Relaxation Massage - 2 Hours - $250">
+                    Relaxation Massage — 2 Hours ($250)
+                </option>
 
-    <button class="button" type="submit">
-        Continue To Bitcoin Payment
-    </button>
+                <option value="3 Hours Massage Session - $400">
+                    3 Hours Massage Session ($400)
+                </option>
 
-</form>
+                <option value="Boyfriend Package - $500">
+                    Boyfriend Package ($500)
+                </option>
+
+            </select>
+
+            <label>Preferred Date</label>
+
+            <input
+                type="date"
+                name="date"
+                required>
+
+            <label>Special Request (Optional)</label>
+
+            <textarea
+                name="message"
+                placeholder="Tell us if you have any special requests..."></textarea>
+
+            <button class="button" type="submit">
+                Continue To Bitcoin Payment
+            </button>
+
+        </form>
+
+    </div>
+
+</section>
