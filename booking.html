@@ -1,89 +1,164 @@
-<section id="appointment">
+<!DOCTYPE html>
+<html lang="en">
 
-    <div class="booking-card">
+<head>
 
-        <h2>Book Your Massage Session</h2>
+<meta charset="UTF-8">
 
-        <p>
-            Complete the form below to reserve your preferred massage session.
-            You'll be taken to the secure Bitcoin payment page to complete your booking.
-        </p>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-        <form action="payment.html" method="GET">
+<title>Book Appointment | Kelly Kay Massage</title>
 
-            <label>Full Name</label>
-            <input
-                type="text"
-                name="name"
-                placeholder="Enter your full name"
-                required>
+<link rel="stylesheet" href="style.css">
 
-            <label>Phone Number</label>
-            <input
-                type="tel"
-                name="phone"
-                placeholder="Enter your phone number"
-                required>
+</head>
 
-            <label>Select Massage Package</label>
+<body>
 
-            <select name="service" required>
+<header class="site-header">
 
-                <option value="">Choose a massage package</option>
+<div class="logo">
 
-                <option value="Swedish Massage - 1 Hour - $120">
-                    Swedish Massage — 1 Hour ($120)
-                </option>
+<h1>Kelly Kay Massage</h1>
 
-                <option value="Deep Tissue Massage - 1 Hour - $120">
-                    Deep Tissue Massage — 1 Hour ($120)
-                </option>
+<p>Relax • Refresh • Restore</p>
 
-                <option value="Relaxation Massage - 1 Hour - $120">
-                    Relaxation Massage — 1 Hour ($120)
-                </option>
+</div>
 
-                <option value="Swedish Massage - 2 Hours - $250">
-                    Swedish Massage — 2 Hours ($250)
-                </option>
+<nav>
 
-                <option value="Deep Tissue Massage - 2 Hours - $250">
-                    Deep Tissue Massage — 2 Hours ($250)
-                </option>
+<a href="index.html">Home</a>
 
-                <option value="Relaxation Massage - 2 Hours - $250">
-                    Relaxation Massage — 2 Hours ($250)
-                </option>
+<a href="index.html#services">Services</a>
 
-                <option value="3 Hours Massage Session - $400">
-                    3 Hours Massage Session ($400)
-                </option>
+<a href="index.html#pricing">Packages</a>
 
-                <option value="Boyfriend Package - $500">
-                    Boyfriend Package ($500)
-                </option>
+<a href="index.html#gallery">Gallery</a>
 
-            </select>
+<a href="index.html#reviews">Reviews</a>
 
-            <label>Preferred Date</label>
+</nav>
 
-            <input
-                type="date"
-                name="date"
-                required>
+</header>
 
-            <label>Special Request (Optional)</label>
+<section class="booking-header">
 
-            <textarea
-                name="message"
-                placeholder="Tell us if you have any special requests..."></textarea>
+<h1>Book Your Massage Session</h1>
 
-            <button class="button" type="submit">
-                Continue To Bitcoin Payment
-            </button>
-
-        </form>
-
-    </div>
+<p>
+Reserve your appointment below. After completing this form,
+you'll continue to the Bitcoin payment page to secure your booking.
+</p>
 
 </section>
+
+<section id="appointment">
+
+<div class="booking-card">
+
+<h2>Appointment Details</h2>
+
+<form action="payment.html" method="GET">
+    <label>Full Name</label>
+
+<input
+type="text"
+name="name"
+placeholder="Enter your full name"
+required>
+
+<label>Phone Number</label>
+
+<input
+type="tel"
+name="phone"
+placeholder="Enter your phone number"
+required>
+
+<label>Select Massage Package</label>
+
+<select name="service" required>
+
+<option value="">Choose your massage package</option>
+
+<option value="Swedish Massage - 1 Hour - $120">
+Swedish Massage — 1 Hour ($120)
+</option>
+
+<option value="Deep Tissue Massage - 1 Hour - $120">
+Deep Tissue Massage — 1 Hour ($120)
+</option>
+
+<option value="Relaxation Massage - 1 Hour - $120">
+Relaxation Massage — 1 Hour ($120)
+</option>
+
+<option value="Swedish Massage - 2 Hours - $250">
+Swedish Massage — 2 Hours ($250)
+</option>
+
+<option value="Deep Tissue Massage - 2 Hours - $250">
+Deep Tissue Massage — 2 Hours ($250)
+</option>
+
+<option value="Relaxation Massage - 2 Hours - $250">
+Relaxation Massage — 2 Hours ($250)
+</option>
+
+<option value="3 Hours Massage Session - $400">
+3 Hours Massage Session ($400)
+</option>
+
+<option value="Boyfriend Package - $500">
+Boyfriend Package ($500)
+</option>
+
+</select>
+
+<label>Preferred Date</label>
+
+<input
+type="date"
+name="date"
+required>
+
+<label>Special Request (Optional)</label>
+
+<textarea
+name="message"
+placeholder="Any special request?"></textarea>
+
+<button class="button" type="submit">
+
+Continue To Bitcoin Payment
+
+</button>
+</form>
+
+</div>
+
+</section>
+
+<footer class="site-footer">
+
+<h3>Kelly Kay Massage</h3>
+
+<p>
+After you complete your booking request, you'll be taken to the
+Bitcoin payment page where you can pay the required 60% deposit
+to secure your appointment.
+</p>
+
+<p>
+The remaining 40% balance is payable when your massage session begins.
+</p>
+
+<p>
+© 2026 Kelly Kay Massage. All Rights Reserved.
+</p>
+
+</footer>
+
+</body>
+
+</html>
