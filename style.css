@@ -78,12 +78,16 @@ nav a:hover {
 
 .button {
     display: inline-block;
-    margin-top: 20px;
-    background: #8b5e3c;
-    color: white;
-    padding: 12px 25px;
+    padding: 14px 30px;
     border-radius: 30px;
     text-decoration: none;
+    font-weight: bold;
+    transition: 0.3s ease;
+}
+
+.button:hover {
+    transform: translateY(-3px);
+
 }
 
 
@@ -974,4 +978,24 @@ section {
     width: 100%;
     padding: 12px;
     margin: 10px 0 20px;
+}
+.service-card {
+    padding: 25px;
+    border-radius: 18px;
+    transition: 0.3s ease;
+}
+
+.service-card:hover {
+    transform: translateY(-8px);
+}
+.review-box {
+    padding: 25px;
+    border-radius: 18px;
+    margin: 20px auto;
+    max-width: 500px;
+}
+.price-box {
+    padding: 30px;
+    border-radius: 18px;
+    margin: 20px auto;
 }
