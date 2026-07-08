@@ -128,8 +128,11 @@ Your appointment will be confirmed after your Bitcoin payment has been successfu
 const params = new URLSearchParams(window.location.search);
 
 const name = params.get("name") || "";
-const service = params.get("service") || "";
+const massage = params.get("massage") || "";
+const package = params.get("package") || "";
 const date = params.get("date") || "";
+
+const service = massage + " - " + package;
 
 document.getElementById("customerName").textContent = name;
 document.getElementById("massagePackage").textContent = service;
