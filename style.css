@@ -999,3 +999,15 @@ section {
     border-radius: 18px;
     margin: 20px auto;
 }
+.booking-header h1 {
+    font-size: 36px;
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+
+.booking-header p {
+    font-size: 18px;
+    line-height: 1.6;
+    max-width: 600px;
+    margin: auto;
+}
