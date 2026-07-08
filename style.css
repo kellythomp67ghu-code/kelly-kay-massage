@@ -948,3 +948,30 @@ section {
 .process-card p {
     line-height: 1.6;
 }
+.booking-header {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.booking-header .site-logo {
+    width: 100px;
+    margin-bottom: 20px;
+}
+
+.thank-you {
+    max-width: 700px;
+    margin: 40px auto;
+    padding: 30px;
+    border-radius: 15px;
+}
+
+.thank-you h2 {
+    margin-top: 25px;
+}
+
+.thank-you input,
+.thank-you textarea {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0 20px;
+}
