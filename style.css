@@ -150,9 +150,7 @@ form {
 
 .gallery-container img {
     width: 100%;
-    height: 300px;
-    object-fit: cover;
-    object-position: center top;
+    height: auto;
     border-radius: 15px;
 }
 form input,
